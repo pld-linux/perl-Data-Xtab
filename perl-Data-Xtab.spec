@@ -26,7 +26,7 @@ ten sposób, ¿e mo¿e byæ ³atwo u¿yta w raporcie lub do wykresu.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
