@@ -1,12 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Xtab
-Summary:	Data::Xtab - Pivot (cross-tabulate) a table of data
+Summary:	Data::Xtab - pivot (cross-tabulate) a table of data
 Summary(pl):	Data::Xtab - obracanie tabel z danymi
 Name:		perl-Data-Xtab
 Version:	1.01
 Release:	11
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2056f54082c33f72538606d3038a068a
