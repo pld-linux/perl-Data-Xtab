@@ -5,12 +5,12 @@ Summary:	Data::Xtab - Pivot (cross-tabulate) a table of data
 Summary(pl):	Modu³ Data::Xtab - obracaj±cy tabele z danymi
 Name:		perl-Data-Xtab
 Version:	1.01
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -26,7 +26,8 @@ ten sposób, ¿e mo¿e byæ ³atwo u¿yta w raporcie lub do wykresu.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -40,5 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_sitelib}/Data/Xtab.pm
+%{perl_vendorlib}/Data/Xtab.pm
 %{_mandir}/man3/*
