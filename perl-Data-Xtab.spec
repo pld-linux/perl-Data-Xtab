@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	Xtab
+%define		pdir	Data
+%define		pnam	Xtab
 Summary:	Data::Xtab - pivot (cross-tabulate) a table of data
 Summary(pl):	Data::Xtab - obracanie tabel z danymi
 Name:		perl-Data-Xtab
