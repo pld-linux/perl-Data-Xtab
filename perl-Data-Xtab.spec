@@ -9,7 +9,7 @@ Summary:	Data::Xtab - pivot (cross-tabulate) a table of data
 Summary(pl):	Data::Xtab - obracanie tabel z danymi
 Name:		perl-Data-Xtab
 Version:	1.01
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
