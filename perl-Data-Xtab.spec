@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Xtab
-Summary:	Data-Xtab perl module
-Summary(pl):	Modu³ perla Data-Xtab
+Summary:	Data::Xtab perl module
+Summary(pl):	Modu³ perla Data::Xtab
 Name:		perl-Data-Xtab
 Version:	1.01
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Data-Xtab perl module.
+Data::Xtab perl module.
 
 %description -l pl
-Modu³ perla Data-Xtab.
+Modu³ perla Data::Xtab.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
