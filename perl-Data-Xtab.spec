@@ -28,7 +28,7 @@ ten sposób, ¿e mo¿e byæ ³atwo u¿yta w raporcie lub do wykresu.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
