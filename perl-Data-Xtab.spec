@@ -2,7 +2,7 @@
 %define	pdir	Data
 %define	pnam	Xtab
 Summary:	Data::Xtab - Pivot (cross-tabulate) a table of data
-Summary(pl):	Modu³ Data::Xtab - obracaj±cy tabele z danymi
+Summary(pl):	Data::Xtab - obracanie tabel z danymi
 Name:		perl-Data-Xtab
 Version:	1.01
 Release:	11
