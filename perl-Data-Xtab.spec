@@ -1,11 +1,10 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Xtab
-Summary:	Data::Xtab perl module
-Summary(pl):	Modu³ perla Data::Xtab
+Summary:	Data::Xtab - Pivot (cross-tabulate) a table of data.
 Name:		perl-Data-Xtab
 Version:	1.01
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -15,10 +14,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Data::Xtab perl module.
-
-%description -l pl
-Modu³ perla Data::Xtab.
+This module allows you to feed it tables of data to be pivoted in such
+a way that they can be easily used in a report or graph. Here is an
+example of input data:
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
