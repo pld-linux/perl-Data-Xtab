@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Data
 %define	pnam	Xtab
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data-Xtab perl module
 Summary(pl):	Modu³ perla Data-Xtab
 Name:		perl-Data-Xtab
 Version:	1.01
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Data-Xtab perl module.
 Modu³ perla Data-Xtab.
 
 %prep
-%setup -q -n Data-Xtab-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
