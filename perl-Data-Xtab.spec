@@ -3,7 +3,7 @@ Summary:	Data-Xtab perl module
 Summary(pl):	Modu³ perla Data-Xtab
 Name:		perl-Data-Xtab
 Version:	1.01
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
