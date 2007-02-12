@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	Xtab
 Summary:	Data::Xtab - pivot (cross-tabulate) a table of data
-Summary(pl):	Data::Xtab - obracanie tabel z danymi
+Summary(pl.UTF-8):   Data::Xtab - obracanie tabel z danymi
 Name:		perl-Data-Xtab
 Version:	1.01
 Release:	12
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module allows you to feed it tables of data to be pivoted in such
 a way that they can be easily used in a report or graph.
 
-%description -l pl
-Ten modu≥ pozwala na przekazanie tabeli danych, ktÛra jest obracana w
-ten sposÛb, øe moøe byÊ ≥atwo uøyta w raporcie lub do wykresu.
+%description -l pl.UTF-8
+Ten modu≈Ç pozwala na przekazanie tabeli danych, kt√≥ra jest obracana w
+ten spos√≥b, ≈ºe mo≈ºe byƒá ≈Çatwo u≈ºyta w raporcie lub do wykresu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
