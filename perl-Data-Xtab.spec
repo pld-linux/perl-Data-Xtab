@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# Do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Data
 %define		pnam	Xtab
+%include	/usr/lib/rpm/macros.perl
 Summary:	Data::Xtab - pivot (cross-tabulate) a table of data
 Summary(pl.UTF-8):	Data::Xtab - obracanie tabel z danymi
 Name:		perl-Data-Xtab
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2056f54082c33f72538606d3038a068a
+URL:		http://search.cpan.org/dist/Data-Xtab/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
