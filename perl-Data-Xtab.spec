@@ -4,7 +4,6 @@
 
 %define		pdir	Data
 %define		pnam	Xtab
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data::Xtab - pivot (cross-tabulate) a table of data
 Summary(pl.UTF-8):	Data::Xtab - obracanie tabel z danymi
 Name:		perl-Data-Xtab
